@@ -1,0 +1,13 @@
+/*
+ * This is free software, licensed under the GNU General Public License v2.
+ * See /LICENSE for more information.
+ *
+ * Copyright (C) 2015 Álvaro Fernández Rojas <noltari@gmail.com>
+ */
+#ifndef VERSION_H
+#define VERSION_H
+
+#define VER_NAME "nandtools"
+#define VER_CODE "@GIT_BRANCH@-@GIT_COMMIT_HASH@"
+
+#endif /* VERSION_H */

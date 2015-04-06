@@ -1,0 +1,9 @@
+*.o
+*-bin
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
+install_manifest.txt
+version.h
+nand_clean_oob
