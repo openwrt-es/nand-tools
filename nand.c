@@ -66,7 +66,7 @@ int nand_clean_oob(int debug, int ifd, int ofd, ssize_t size, int nand_page, int
 		pr_info("Copying NAND pages\n");
 	}
 	for(i = 0; i < nand_entries; i++) {
-		memcpy(obuf + i * (nand_page ), ibuf + i * (nand_page + nand_oob), nand_page);
+		memcpy(obuf + i * nand_page, ibuf + i * (nand_page + nand_oob), nand_page);
 	}
 
 	if (debug) {
